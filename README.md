@@ -24,30 +24,6 @@ Check out the live deployment here: [https://vehicle-tracker-app-sooty.vercel.ap
 | Styling      | Tailwind CSS                              | Utility-first styling and responsiveness     |
 | Data Format  | JSON                                      | Dummy route data for simulation              |
 
-## Project Structure
-
-vehicle-tracker-app/
-├── public/
-│   ├── dummy-route.json
-│   ├── favicon.ico
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── AnimatedMarker/
-│   │   │   └── index.js
-│   │   ├── Controls/
-│   │   │   └── index.js
-│   │   ├── Utils/
-│   │   │   └── index.js
-│   │   └── VehicleMap/
-│   │       └── index.js
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
-├── package.json
-├── tailwind.config.js
-└── README.md
-
 ## Dummy Data Format
 
 [
