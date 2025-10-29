@@ -7,7 +7,7 @@ const Controls = props => {
     const speed = calculateSpeedKmH(currentIndex, routeData)
 
     return (
-        <div className="absolute top-4 right-4 z-[1000] p-4 bg-white shadow-xl items-end rounded-lg w-[40vw] max-w-xs md:max-w-sm">
+        <div className="absolute top-4 right-4 z-[1000] p-4 bg-white shadow-xl items-end rounded-lg w-[60vw] max-w-xs md:max-w-sm">
             <h2 className="text-lg font-bold mb-3">Vehicle Status</h2>
             <div className="space-y-1 text-sm">
                 <p>Coordinate: <span className="font-mono text-blue-600">{currentPosition.lat?.toFixed(6)}, {currentPosition.lng?.toFixed(6)}</span></p>
