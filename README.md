@@ -1,3 +1,75 @@
+# Vehicle Movement on a Map 🗺️
+
+## Project Overview  
+This is a frontend-only web application built as part of a Frontend Developer Intern assignment.  
+It simulates a vehicle moving along a predefined route on a map, visualises its live position, draws the route path, and provides basic controls and metadata.
+
+## 🔗 Live Demo  
+Check out the live deployment here: [https://vehicle-tracker-app-sooty.vercel.app](https://vehicle-tracker-app-sooty.vercel.app)
+
+
+## Objectives  
+- Display a map view centred on a predefined route.  
+- Draw the full route path using dummy location data.  
+- Simulate real-time movement of a vehicle marker along the route.  
+- Provide Play / Pause (and optionally Reset) controls.  
+- Display metadata such as current coordinates, timestamp, and speed.  
+- Ensure responsive UI (desktop + mobile) and clean, readable code.
+
+## Tech Stack  
+| Category     | Technology                                | Purpose                                      |
+|--------------|-------------------------------------------|----------------------------------------------|
+| Frontend     | React.js                                  | Component-based UI and state management      |
+| Mapping      | React-Leaflet (Leaflet)                   | Interactive map integration                  |
+| Styling      | Tailwind CSS                              | Utility-first styling and responsiveness     |
+| Data Format  | JSON                                      | Dummy route data for simulation              |
+
+## Project Structure
+
+vehicle-tracker-app/
+├── public/
+│   ├── dummy-route.json
+│   ├── favicon.ico
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── AnimatedMarker/
+│   │   │   └── index.js
+│   │   ├── Controls/
+│   │   │   └── index.js
+│   │   ├── Utils/
+│   │   │   └── index.js
+│   │   └── VehicleMap/
+│   │       └── index.js
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+├── tailwind.config.js
+└── README.md
+
+## Dummy Data Format
+
+[
+  { "latitude": 17.361431, "longitude": 78.474533, "timestamp": "2024-07-20T10:00:00Z" },
+  { "latitude": 17.382330, "longitude": 78.401604, "timestamp": "2024-07-20T10:00:00Z" },
+  { "latitude": 17.423880, "longitude": 78.473824, "timestamp": "2024-07-20T10:00:00Z" },
+  { "latitude": 17.406164, "longitude": 78.469048, "timestamp": "2024-07-20T10:00:00Z" },
+  { "latitude": 17.371545, "longitude": 78.480241, "timestamp": "2024-07-20T10:00:00Z" },
+  ...
+]
+
+## Preview
+
+<img width="1366" height="683" alt="Screenshot 2025-10-29 192938" src="https://github.com/user-attachments/assets/3cafc339-480b-4eae-bd8d-eda2caf44d9e" />
+
+<img width="547" height="683" alt="Screenshot 2025-10-29 194756" src="https://github.com/user-attachments/assets/458f926b-7bdb-44fd-aa9c-714c222bcbeb" />
+
+
+
+https://github.com/user-attachments/assets/ca162dd3-4d29-42aa-83a9-07cb3fc3913b
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +140,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Author
+Aditya Ammu - FullStack Developer Intern Candidate
