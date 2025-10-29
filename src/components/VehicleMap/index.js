@@ -62,7 +62,7 @@ const VehicleMap = () => {
     })
 
     return (
-        <div className="h-screen w-full relative">
+        <div className="h-screen w-full relative flex flex-col justify-end">
             <MapContainer
                 center={INITIAL_CENTER}
                 zoom={15}
@@ -94,6 +94,7 @@ const VehicleMap = () => {
                     icon={vehicleIcon}
                 />
             </MapContainer>
+
             {/* UI Controls component will go here */}
             <Controls
                 routeData={routeData}
